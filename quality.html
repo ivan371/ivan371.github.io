@@ -7,19 +7,79 @@
     <link rel="stylesheet" type="text/css" href="css/img.css">
   </head>
   <body id="quality" class="backgr">
-    <div id="SMK"><a href="index.html"><img src="CMK.jpg" width="100%" height="100%"></a></div>
+    <div id="SMK"><a href="index.html" class="transition"><img src="CMK.jpg" width="100%" height="100%"></a></div>
+<div id="SMK"><a href="index.html"><img src="CMK.jpg" width="100%" height="100%"></a></div>
     <div id="adress">
-      <h1>Компетентное разъяснение требований | передача знаний | издание простых документов</h1>
+		<h2><font color="red">С</font><font color="black">тандарты </font></h2>
+		<h2><font color="red">М<font color="black">енеджмент </font></h2>
+		<h2><font color="red">К<font color="black">ачество  </font></h2>
+		
     </div>
     <div class="left_column">
-      <div id="elem_column"><a href="about.html">
-          <h4>Об организации</h4></a></div>
-      <div id="elem_column">Контакты</div>
-      <div id="elem_column">Заявка на услугу</div>
+      <div id="elem_column" class="transition"><a href="about.html">
+          <h3>Об организации</h3></a></div>
+      <div id="elem_column" class="transition"><a href="contacts.html">
+          <h3>Контакты</h3></a></div>
+		<div id="elem_column" class="transition"><a href="teaching.html">
+          <h3>Обучение</h3></a></div>
+      <div id="elem_column" class="transition">
+        <h3>Заявка на услугу</h3>
+      </div>
     </div>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/img.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  </body>
-</html>
+        <div class="test" style="position: fixed"> 
+	<a href='quality1.html'> <h2> Подготовка к сертификации СМК </h2> </a>
+	<a href='quality2.html'> <h2> Раработка СМК </h2> </a>
+	<a href='quality5.html'> <h2> Проверка документов </h2> </a>
+	<a href='quality6.html'> <h2> Проверочный аудит </h2> </a>
+	<script type="text/javascript">
+var message="                                  "
+var base_color="black"
+var color1="magenta"
+var color2="green"
+var flashspeed=99
+var flashingletters=2
+var flashingletters2=2
+var flashpause=0
+var n=0
+if (document.all||document.getElementById){
+   document.write('<font color="'+base_color+'" size="6">')
+   for (m=0; m<message.length; m++)
+   document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+   document.write('</font>')
+}
+else document.write(message)
+
+function crossref(number){
+   var crossobj=document.all? eval("document.all.neonlight"+number) :
+   document.getElementById("neonlight"+number)
+   return crossobj
+}
+
+function neon(){
+   if (n==0){
+    for (m=0; m<message.length; m++)
+    crossref(m).style.color=base_color
+    }
+   crossref(n).style.color=color1
+   if (n>flashingletters-1) { crossref(n-flashingletters).style.color=color2 }
+   if (n>(flashingletters+flashingletters2)-1) {
+   crossref(n-flashingletters-flashingletters2).style.color=base_color }
+   if (n<message.length-1) { n++ }
+   else{
+    n=0
+    clearInterval(flashing)
+    setTimeout("start_color()",flashpause)
+    return
+    }
+}
+function start_color(){
+   if (document.all||document.getElementById)
+   flashing=setInterval("neon()",flashspeed)
+}
+start_color()
+</script>
+<script src="http://code.jquery.com/jquery-latest.min.js">
+  <script src="js/img.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</script>
