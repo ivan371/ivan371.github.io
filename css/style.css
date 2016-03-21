@@ -166,10 +166,9 @@ option
 }
 .but
 {
-  margin-bottom: 10px;
   margin-left: 5vw;
   height: 30px;
-  width: 6vw;
+  width: 7vw;
   clear:both;
   display: inline-block;
   text-align: center;
