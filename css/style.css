@@ -172,6 +172,7 @@ option
   clear:both;
   display: inline-block;
   text-align: center;
+  opacity: 0.8;
 }
 .but a
 {
