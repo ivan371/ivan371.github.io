@@ -4,8 +4,8 @@
     -moz-box-sizing: border-box; /* Äëÿ Firefox */ 
     -webkit-box-sizing: border-box; /* Äëÿ Safari, Chrome, iOS èAndroid */ 
 	margin-left: 50px;
-	width: 27vw;
-	height: 27vw;
+	width: 26vw;
+	height: 26vw;
 	text-align: center;
 }
 
