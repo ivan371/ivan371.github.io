@@ -1,11 +1,11 @@
 .item {
     display: inline-block;
-    box-sizing: border-box; /* Изменения алгоритма расчета ширины и высоты элемента.*/
-    -moz-box-sizing: border-box; /* Для Firefox */ 
-    -webkit-box-sizing: border-box; /* Для Safari, Chrome, iOS иAndroid */ 
+    box-sizing: border-box; /* Г€Г§Г¬ГҐГ­ГҐГ­ГЁГї Г Г«ГЈГ®Г°ГЁГІГ¬Г  Г°Г Г±Г·ГҐГІГ  ГёГЁГ°ГЁГ­Г» ГЁ ГўГ»Г±Г®ГІГ» ГЅГ«ГҐГ¬ГҐГ­ГІГ .*/
+    -moz-box-sizing: border-box; /* Г„Г«Гї Firefox */ 
+    -webkit-box-sizing: border-box; /* Г„Г«Гї Safari, Chrome, iOS ГЁAndroid */ 
 	margin-left: 50px;
-	width: 400px;
-	height: 400px;
+	width: 40vw;
+	height: 40vw;
 	text-align: center;
 }
 
@@ -40,7 +40,7 @@
 	height: 100px;
 }
 
-/* Стили картинок, видое и фреймов внутри адаптивных плиток */
+/* Г‘ГІГЁГ«ГЁ ГЄГ Г°ГІГЁГ­Г®ГЄ, ГўГЁГ¤Г®ГҐ ГЁ ГґГ°ГҐГ©Г¬Г®Гў ГўГ­ГіГІГ°ГЁ Г Г¤Г ГЇГІГЁГўГ­Г»Гµ ГЇГ«ГЁГІГ®ГЄ */
 .item.img {
 	max-width: 100%;
 	display: inline-block;
@@ -54,7 +54,7 @@
 		width: 100%;
 }
  
-/* Стили ссылок внутри плиток */
+/* Г‘ГІГЁГ«ГЁ Г±Г±Г»Г«Г®ГЄ ГўГ­ГіГІГ°ГЁ ГЇГ«ГЁГІГ®ГЄ */
 .item a {
 	text-decoration: none;
 	color: #359CC6;
@@ -85,7 +85,7 @@
   color: black;
 }
 
-/* Стили ссылок при наведении */
+/* Г‘ГІГЁГ«ГЁ Г±Г±Г»Г«Г®ГЄ ГЇГ°ГЁ Г­Г ГўГҐГ¤ГҐГ­ГЁГЁ */
 .item a:hover {
 color: #E88F00;    
 border-bottom: 1px dotted #9F1D35;
