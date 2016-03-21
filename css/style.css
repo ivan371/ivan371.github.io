@@ -91,7 +91,7 @@ a.rollover hover
   float:left
 }
 #img{float:left}
-#com{position:absolute;left:211px;top:161px}
+#com{position:absolute;left:20vw;top:161px}
 #com column-gap 1.5em{font-size:.85em}
 .test{
   margin: 40px;
