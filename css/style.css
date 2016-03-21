@@ -163,3 +163,12 @@ option
   right: 20vw;
   font-style: italic;
 }
+.but
+{
+  top: 120px;
+  height: 30px;
+  left: 10vw;
+  width: 5vw;
+  background-color: orange;
+}
+}
