@@ -166,7 +166,7 @@ option
 .but
 {
   top: 120px;
-  left: 10vw;
+  margin-left: 5vw;
   height: 30px;
   width: 6vw;
   background-color: orange;
