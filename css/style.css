@@ -169,4 +169,5 @@ option
   width: 5vw;
   background-color: orange;
   clear:both;
+  display: inline-block;
 }
