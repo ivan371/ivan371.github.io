@@ -15,10 +15,6 @@ nav.menu
   adding:0
   
 }
-p
-{
-  font-size:20px
-}
 #SMK{
   position:fixed;
   margin:0px;
@@ -62,12 +58,10 @@ p
 }
 h3{
   color:#000;
-  font-size:25px;
   font-weight: normal;
 }
 h2{
   color:#000;
-  font-size:30px;
   font-weight: normal;
 }
 a{
