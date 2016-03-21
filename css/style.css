@@ -165,7 +165,7 @@ option
 }
 .but
 {
-  top: 100px;
+  bottom: 10px;
   margin-left: 5vw;
   height: 30px;
   width: 6vw;
