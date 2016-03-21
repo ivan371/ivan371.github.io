@@ -52,11 +52,12 @@ p
   float:left;
   width:18vw;
   height:100vh;
-  background-color:#ffdead}
+  background-color:#ffdead
+}
 #elem_column{
   margin:0px;
   width:99%;
-  height:10vh;
+  height:6vh;
   float:left
 }
 h3{
