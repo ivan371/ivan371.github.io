@@ -173,5 +173,9 @@ option
   clear:both;
   display: inline-block;
   text-align: center;
-  vertical-align:middle;
+}
+.but p
+{
+  margin-top: 10px;
+}
 }
