@@ -166,7 +166,7 @@ option
 }
 .but
 {
-  margin-left: 2vw;
+  margin-left: 3vw;
   height: 30px;
   width: 9vw;
   clear:both;
@@ -175,6 +175,6 @@ option
 }
 .but a
 {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   margin-top: 5px;
 }
